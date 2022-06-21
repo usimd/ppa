@@ -3,12 +3,12 @@ Version: 0.0.1
 Architecture: arm64
 Maintainer: Simon Domke <11619247+usimd@users.noreply.github.com>
 Installed-Size: 1435
-Depends: nodejs (>= 14.17.0), can-utils, libc6, jq
+Depends: nodejs (>= 14.17.0), can-utils, libc6
 Filename: ./laundry-bridge_0.0.1_arm64.deb
-Size: 308988
-MD5sum: ed0e7a22bcb4e5f800987bd6cef058d2
-SHA1: 7874310b67d623571be123b73c2aa09c8759e478
-SHA256: 42b15570439a85e86217f465c5d7fa9146bc639e20742741de049f42705d6c0b
+Size: 308936
+MD5sum: 4929f6808115e58c9954cf79afb1fa2b
+SHA1: e56d44c3e1b20ed0604558ffc971db2c55d93612
+SHA256: e6a4a127df563cf8b19fc9fe39bbe7c4222953cbf79fa8191e81765df33b5c6a
 Section: electronics
 Priority: optional
 Description: CAN-MQTT-bridge daemon for LaundryHAT
@@ -20,12 +20,12 @@ Version: 0.0.1
 Architecture: armhf
 Maintainer: Simon Domke <11619247+usimd@users.noreply.github.com>
 Installed-Size: 1417
-Depends: nodejs (>= 14.17.0), can-utils, libc6, jq
+Depends: nodejs (>= 14.17.0), can-utils, libc6
 Filename: ./laundry-bridge_0.0.1_armhf.deb
-Size: 308412
-MD5sum: db0be4e86f1cb429d43de7ae63e335b7
-SHA1: 18bfd50e2a10ee2523fe89d028d25596927035fc
-SHA256: 8944ca0c89edc75b4a5ddb6dda23a77c00ac7da0c50db02849bd35d573bfbe6e
+Size: 308444
+MD5sum: 090194d128c8ffaa4f18385c9b0bd506
+SHA1: 845a7d081e06bdafc400a2eed1b286eb64883b72
+SHA256: d09398fec2ab00fe9dc10eab4728ed06f52aa0fb648bddb152c2eae9703a31ca
 Section: electronics
 Priority: optional
 Description: CAN-MQTT-bridge daemon for LaundryHAT
