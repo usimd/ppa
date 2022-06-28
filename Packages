@@ -2,13 +2,13 @@ Package: laundry-bridge
 Version: 0.0.1
 Architecture: arm64
 Maintainer: Simon Domke <11619247+usimd@users.noreply.github.com>
-Installed-Size: 1435
-Depends: nodejs (>= 14.17.0), can-utils, libc6
+Installed-Size: 1449
+Depends: systemd, nodejs (>= 14.17.0), can-utils, sysuser-helper (<< 1.4), libc6 (>= 2.17), libstdc++6 (>= 5.2)
 Filename: ./laundry-bridge_0.0.1_arm64.deb
-Size: 308936
-MD5sum: 4929f6808115e58c9954cf79afb1fa2b
-SHA1: e56d44c3e1b20ed0604558ffc971db2c55d93612
-SHA256: e6a4a127df563cf8b19fc9fe39bbe7c4222953cbf79fa8191e81765df33b5c6a
+Size: 310400
+MD5sum: 164b1272f1f434a1afafd7d3a523a439
+SHA1: 1b246ff1721760a5e939b1ec36d666382304d037
+SHA256: a0784d2322a97c56b076c600b2d1601ab758c23ef2f36f1619b4eed18b7b2116
 Section: electronics
 Priority: optional
 Description: CAN-MQTT-bridge daemon for LaundryHAT
@@ -19,13 +19,13 @@ Package: laundry-bridge
 Version: 0.0.1
 Architecture: armhf
 Maintainer: Simon Domke <11619247+usimd@users.noreply.github.com>
-Installed-Size: 1417
-Depends: nodejs (>= 14.17.0), can-utils, libc6
+Installed-Size: 1431
+Depends: systemd, nodejs (>= 14.17.0), can-utils, sysuser-helper (<< 1.4), libc6 (>= 2.4), libstdc++6 (>= 5.2)
 Filename: ./laundry-bridge_0.0.1_armhf.deb
-Size: 308444
-MD5sum: 090194d128c8ffaa4f18385c9b0bd506
-SHA1: 845a7d081e06bdafc400a2eed1b286eb64883b72
-SHA256: d09398fec2ab00fe9dc10eab4728ed06f52aa0fb648bddb152c2eae9703a31ca
+Size: 309552
+MD5sum: c6404f80bd34c28474fd86c132aa7382
+SHA1: bd98bafa2f40217d73643ff82890747bff6c6970
+SHA256: a3a58d3eb62b17fb063cc7cdb1d873800c074beee46f5c1671066e6724d5ba92
 Section: electronics
 Priority: optional
 Description: CAN-MQTT-bridge daemon for LaundryHAT
